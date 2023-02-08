@@ -1,0 +1,15 @@
+{
+    "name": "John",
+    "age": 31,
+    "money": 15.63,
+    "pets": [
+        {
+            "name": "Woof",
+            "type": "Cat"
+        },
+        {
+            "name": "Meow",
+            "type": "Dog"
+        }
+    ]
+}

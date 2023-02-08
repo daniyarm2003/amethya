@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Timer">
+      <UniqueIdentifier>{a2fb7118-836d-4782-a53c-d3562b2a4077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timer">
+      <UniqueIdentifier>{f8008335-5d1f-4030-9d5b-8d7bdca350b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{74646042-3ecd-4248-88e9-2fdd6a3c4c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{e9302d4e-7b1c-4e21-a279-c059db73f26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{8b4d0508-6cfd-47e3-8630-64ccb22c63d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{0b05d5c5-0418-40d0-9f34-1f5dbb5636a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{ee3634bb-9bcc-495b-aa26-03df5ec7e921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{66b613ce-fe0a-4427-a4cd-8f1640ecd95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{d34d4d9a-049b-4d27-9d00-92660b42c6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{bfd3f4d7-b9aa-495d-ae3f-da669b052020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{483c77a1-875d-4405-84d1-7bed35dcd0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{91ef256c-4f9c-4c6f-b9df-7dd5e0a3b0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Components">
+      <UniqueIdentifier>{9147014b-f9cd-419f-9c2c-f5e41f5fb3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Components">
+      <UniqueIdentifier>{d6ec6b44-b7f8-4522-a034-9411225ad3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Components\States">
+      <UniqueIdentifier>{a4fec69a-8035-4b1f-9a03-8ad28afd5d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Components\States">
+      <UniqueIdentifier>{f0791bb8-b4f4-4889-b87e-e81032f063ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Components\Rendering">
+      <UniqueIdentifier>{b08cefdb-936e-425e-9370-61f076c7f3fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Components\Rendering">
+      <UniqueIdentifier>{7db10bbf-ae26-4073-a9a5-85bfbbcf82c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Components\States\Player">
+      <UniqueIdentifier>{b1ebf358-9b63-4a23-b703-07152124021f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Components\States\Player">
+      <UniqueIdentifier>{aff98105-6d9b-46ac-8192-70a1ac7d475f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Components\Properties">
+      <UniqueIdentifier>{a8548b72-d401-48a9-8959-bfa95bc9dbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Components\Properties">
+      <UniqueIdentifier>{b01ea725-f3ef-4169-bfb4-101524ecbac1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Amethya.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Source Files\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteCollection.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjInitializers.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComponent.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractPhysicsComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="OrdinaryPhysicsComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachineComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractState.cpp">
+      <Filter>Source Files\GameObjects\Components\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformRendererComp.cpp">
+      <Filter>Source Files\GameObjects\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationRendererComp.cpp">
+      <Filter>Source Files\GameObjects\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultIdleState.cpp">
+      <Filter>Source Files\GameObjects\Components\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultMovingState.cpp">
+      <Filter>Source Files\GameObjects\Components\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdleState.cpp">
+      <Filter>Source Files\GameObjects\Components\States\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovingState.cpp">
+      <Filter>Source Files\GameObjects\Components\States\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGroundIdleState.cpp">
+      <Filter>Source Files\GameObjects\Components\States\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGroundMovingState.cpp">
+      <Filter>Source Files\GameObjects\Components\States\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAirStates.cpp">
+      <Filter>Source Files\GameObjects\Components\States\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWallSlideState.cpp">
+      <Filter>Source Files\GameObjects\Components\States\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCrouchStates.cpp">
+      <Filter>Source Files\GameObjects\Components\States\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityProperties.cpp">
+      <Filter>Source Files\GameObjects\Components\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProperties.cpp">
+      <Filter>Source Files\GameObjects\Components\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemComp.cpp">
+      <Filter>Source Files\GameObjects\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Header Files\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Amethya.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteCollection.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjInitializers.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractPhysicsComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="OrdinaryPhysComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachineComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractState.h">
+      <Filter>Header Files\GameObjects\Components\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformRendererComp.h">
+      <Filter>Header Files\GameObjects\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationRendererComp.h">
+      <Filter>Header Files\GameObjects\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultIdleState.h">
+      <Filter>Header Files\GameObjects\Components\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultMovingState.h">
+      <Filter>Header Files\GameObjects\Components\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdleState.h">
+      <Filter>Header Files\GameObjects\Components\States\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovingState.h">
+      <Filter>Header Files\GameObjects\Components\States\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGroundIdleState.h">
+      <Filter>Header Files\GameObjects\Components\States\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGroundMovingState.h">
+      <Filter>Header Files\GameObjects\Components\States\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAirStates.h">
+      <Filter>Header Files\GameObjects\Components\States\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWallSlideState.h">
+      <Filter>Header Files\GameObjects\Components\States\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCrouchStates.h">
+      <Filter>Header Files\GameObjects\Components\States\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityProperties.h">
+      <Filter>Header Files\GameObjects\Components\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProperties.h">
+      <Filter>Header Files\GameObjects\Components\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemComp.h">
+      <Filter>Header Files\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Amethya.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

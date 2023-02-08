@@ -1,0 +1,257 @@
+{
+    "testanim": [
+        {
+            "spritesheet": "platforms",
+            "index": 0,
+            "duration": 1.0,
+            "transforms": {
+                "offset": [0.0, 1.0],
+                "scale": [1.0, -1.0]
+            }
+        },
+        {
+            "spritesheet": "platforms",
+            "index": 1,
+            "duration": 1.0
+        }
+    ],
+    "player-idle-left": [
+        {
+            "spritesheet": "player",
+            "index": 0,
+            "duration": 1.0,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        },
+        {
+            "spritesheet": "player",
+            "index": 1,
+            "duration": 0.5,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        },
+        {
+            "spritesheet": "player",
+            "index": 2,
+            "duration": 1.0,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        },
+        {
+            "spritesheet": "player",
+            "index": 1,
+            "duration": 0.5,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        }
+    ],
+    "player-idle-right": [
+        {
+            "spritesheet": "player",
+            "index": 0,
+            "duration": 1.0
+        },
+        {
+            "spritesheet": "player",
+            "index": 1,
+            "duration": 0.5
+        },
+        {
+            "spritesheet": "player",
+            "index": 2,
+            "duration": 1.0
+        },
+        {
+            "spritesheet": "player",
+            "index": 1,
+            "duration": 0.5
+        }
+    ],
+    "player-run-left": [
+        {
+            "spritesheet": "player",
+            "index": 3,
+            "duration": 0.15,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        },
+        {
+            "spritesheet": "player",
+            "index": 4,
+            "duration": 0.15,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        },
+        {
+            "spritesheet": "player",
+            "index": 5,
+            "duration": 0.15,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        },
+        {
+            "spritesheet": "player",
+            "index": 4,
+            "duration": 0.15,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        }
+    ],
+    "player-run-right": [
+        {
+            "spritesheet": "player",
+            "index": 3,
+            "duration": 0.15
+        },
+        {
+            "spritesheet": "player",
+            "index": 4,
+            "duration": 0.15
+        },
+        {
+            "spritesheet": "player",
+            "index": 5,
+            "duration": 0.15
+        },
+        {
+            "spritesheet": "player",
+            "index": 4,
+            "duration": 0.15
+        }
+    ],
+    "player-jump-left": [
+        {
+            "spritesheet": "player",
+            "index": 8,
+            "duration": -1.0,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        }
+    ],
+    "player-jump-right": [
+        {
+            "spritesheet": "player",
+            "index": 8,
+            "duration": -1.0
+        }
+    ],
+    "player-fall-left": [
+        {
+            "spritesheet": "player",
+            "index": 5,
+            "duration": -1.0,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        }
+    ],
+    "player-fall-right": [
+        {
+            "spritesheet": "player",
+            "index": 5,
+            "duration": -1.0
+        }
+    ],
+    "player-wall-slide-left": [
+        {
+            "spritesheet": "player",
+            "index": 9,
+            "duration": -1.0,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        }
+    ],
+    "player-wall-slide-right": [
+        {
+            "spritesheet": "player",
+            "index": 9,
+            "duration": -1.0
+        }
+    ],
+    "player-crouch-left": [
+        {
+            "spritesheet": "player",
+            "index": 10,
+            "duration": -1.0,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        }
+    ],
+    "player-crouch-right": [
+        {
+            "spritesheet": "player",
+            "index": 10,
+            "duration": -1.0
+        }
+    ],
+    "player-slide-left": [
+        {
+            "spritesheet": "player",
+            "index": 11,
+            "duration": -1.0,
+            "transforms": {
+                "offset": [1.0, 0.0],
+                "scale": [-1.0, 1.0]
+            }
+        }
+    ],
+    "player-slide-right": [
+        {
+            "spritesheet": "player",
+            "index": 11,
+            "duration": -1.0
+        }
+    ],
+    "crystal": [
+        {
+            "spritesheet": "items",
+            "index": 0,
+            "duration": 0.25
+        },
+        {
+            "spritesheet": "items",
+            "index": 1,
+            "duration": 0.25
+        },
+        {
+            "spritesheet": "items",
+            "index": 2,
+            "duration": 0.25
+        },
+        {
+            "spritesheet": "items",
+            "index": 3,
+            "duration": 0.25
+        }
+    ],
+    "jump-orb": [
+        {
+            "spritesheet": "items",
+            "index": 4,
+            "duration": -1.0
+        }
+    ]
+}
